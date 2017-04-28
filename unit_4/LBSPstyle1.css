@@ -1,10 +1,9 @@
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
   color:rgb(51, 204, 255);
   text-align: center;
-  font-size: 30px
-
-
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
 }
 #img-circle {
     border-radius: 50%;
@@ -23,20 +22,8 @@ body {
       font-family: 'Barrio', cursive;
        	font-size:60px;
    }
-   h2 {
-    font-family: 'Indie Flower', cursive;
-
-   }
 
 
    #contact{
    	text-align:center;
    }
- 
-  
-  p {
-    size:;
-
-    font-family: 'Indie Flower', cursive;
-
-  }
