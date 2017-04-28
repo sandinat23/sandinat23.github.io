@@ -1,0 +1,42 @@
+
+body {
+  color:rgb(51, 204, 255);
+  text-align: center;
+  font-size: 30px
+
+
+}
+#img-circle {
+    border-radius: 50%;
+    padding-left: 50px;
+    padding-right:50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+   #slogan {
+  font-style: italic;
+}
+
+
+   h1{
+      font-family: 'Barrio', cursive;
+       	font-size:60px;
+   }
+   h2 {
+    font-family: 'Indie Flower', cursive;
+
+   }
+
+
+   #contact{
+   	text-align:center;
+   }
+ 
+  
+  p {
+    size:;
+
+    font-family: 'Indie Flower', cursive;
+
+  }
