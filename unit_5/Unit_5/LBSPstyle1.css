@@ -1,0 +1,74 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+
+header {
+   background-color:#FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+.featuredvid {
+  background-color:#FFC675;
+    border: 1px black solid;
+    padding: 20px;
+      text-align:center
+}
+
+.store {
+  background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+      text-align:center
+}
+
+.blog {
+  background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+      text-align:center
+}
+
+.Videos {
+background-color:#E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A
+    border: 1px black solid;
+    padding: 20px;
+
+}
+body {
+  color:rgb(51, 204, 255);
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
+}
+.img-circle {
+    border-radius: 50%;
+    padding-left: 50px;
+    padding-right:50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+   #slogan {
+  font-style: italic;
+}
+
+
+   h1{
+      font-family: 'Barrio', cursive;
+       	font-size:60px;
+   }
+
+footer {
+   background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+   #contact{
+   	text-align:center;
+   }
