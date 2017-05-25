@@ -1,0 +1,86 @@
+
+
+header {
+  text-align: center; 
+ 
+}
+
+body {
+    color:rgb(51, 204, 255);
+  }
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+#main {
+   float: left;
+    width: 480px;
+     text-align: center;
+
+
+}
+
+.Videos {
+  float:right;
+  width: 240px;
+  margin:5px;
+
+  
+
+}
+
+.Blog {
+float:left;
+width:240px;
+margin:5px;
+
+}
+
+.featuredvid {
+ float:left;
+  margin: 10px;
+  padding:10px;
+  border:3px solid #0099ff;
+  font-size:15px;
+
+}
+
+.store {
+  float:right;
+  margin: 10px;
+   padding:10px;
+  border:3px solid #0099ff;
+  font-size:15px;
+}
+    
+.img-circle {
+    border-radius: 50%;
+    padding-left: 50px;
+    padding-right:50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  
+}
+
+   h1{
+      font-family: 'Barrio', cursive;
+        font-size:30px;
+     
+   }
+   h2 {
+    font-family: 'Barrio', cursive;
+        font-size:15px;
+       
+
+   }
+
+   #contact{
+    text-align:center;
+    clear:both;
+    padding: 0 15px;
+   }
+
+   
