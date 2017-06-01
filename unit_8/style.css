@@ -1,0 +1,93 @@
+
+
+header {
+  font-size: 50px;
+  text-align: center; 
+ 
+}
+
+body {
+    color:rgb(51, 204, 255);
+  }
+    
+.imgcircle {
+    border-radius: 50%;
+    padding-left: 50px;
+    padding-right:50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  
+}
+
+   h1 {
+      font-family: 'Barrio', cursive;
+        font-size:30px;
+         text-align: center;  
+     
+   }
+   h2 {
+    font-family: 'Barrio', cursive;
+        font-size:15px;
+        text-align: center;   
+}
+
+p {
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.store {
+  
+}
+
+   .boxed {
+    border:5px solid #0099ff;
+   }
+
+   .blog {
+    float:left;
+    color:white;
+    background-color: #33ccff;
+    width: 300px;
+    border: 25px solid #0099ff;
+    padding: 25px;
+    margin: 25px;
+    border-style: double;
+   }
+
+   .videos {
+    float:right;
+    color:white;
+    background-color: #33ccff;
+    width: 300px;
+    border: 25px solid #0099ff;
+    padding: 25px;
+    margin: 25px;
+    border-style: double;
+
+   }
+
+#main {
+  float:left;
+color:white;
+    background-color:#00bfff;
+  width: 300px;
+    border: 25px solid #0066cc;
+    padding: 25px;
+    margin: 25px;
+    border-style: double;
+    }
+
+    li {
+      border:10px solid #0066cc ;
+      padding:10px;
+      margin:10px;
+    }
+
+ #contact{
+    text-align:center;
+    clear:both;
+    padding: 0 10px;
+   }
+ 
+
