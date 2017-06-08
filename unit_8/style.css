@@ -1,4 +1,4 @@
-
+* { box-sizing:border-box; }
 
 header {
   font-size: 50px;
@@ -8,15 +8,17 @@ header {
 
 body {
     color:rgb(51, 204, 255);
+    /* background-color: white; */
+    font-size: 16px;
   }
     
 .imgcircle {
     border-radius: 50%;
-    padding-left: 50px;
-    padding-right:50px;
-    padding-bottom: 50px;
-    padding-top: 50px;
-  
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    max-width: 250px;
 }
 
    h1 {
@@ -35,13 +37,18 @@ p {
   font-family: 'Indie Flower', cursive;
 
 }
-
+ul {
+  list-style:none;
+  padding:0;
+}
 .store {
   
 }
 
    .boxed {
     border:5px solid #0099ff;
+    width: 100%;
+    height: auto;
    }
 
    .blog {
@@ -51,32 +58,28 @@ p {
     width: 300px;
     border: 25px solid #0099ff;
     padding: 25px;
-    margin: 25px;
     border-style: double;
    }
 
    .videos {
-    float:right;
+    float: left;
     color:white;
     background-color: #33ccff;
-    width: 300px;
+    width: 32.33%;
     border: 25px solid #0099ff;
     padding: 25px;
-    margin: 25px;
     border-style: double;
-
+    margin: .5%;
    }
 
 #main {
-  float:left;
-color:white;
-    background-color:#00bfff;
-  width: 300px;
-    border: 25px solid #0066cc;
-    padding: 25px;
-    margin: 25px;
-    border-style: double;
-    }
+  /* float:left; */
+  /* color:white; */
+  background-color:#00bfff;
+  border: 25px double #0066cc;
+  /* padding: 25px; */
+  /* margin: 25px; */
+  }
 
     li {
       border:10px solid #0066cc ;
@@ -90,4 +93,14 @@ color:white;
     padding: 0 10px;
    }
  
-
+@media only screen and (max-width:975px) {
+  body {
+    font-size:20px;
+  }
+  .videos {
+    width:99%;
+    max-width:700px;
+    float:none;
+    margin:2em auto;
+  }
+}
