@@ -1,0 +1,134 @@
+* { box-sizing:border-box; }
+
+header {
+  font-size: 50px;
+  text-align: center; 
+}
+
+body {
+    color:rgb(51, 204, 255);
+    background-color: white;
+    text-decoration-style: bold;
+   
+  }
+
+h1 {
+      font-family: 'Barrio', cursive;
+        font-size:50px;
+         text-align: center;  
+     
+   }
+   h2 {
+    font-family: 'Barrio', cursive;
+        font-size:25px;
+        text-align: center;   
+}
+
+a:link {
+    color: blue;
+}
+a:visited {
+    color: #0099ff;
+}
+a:hover {
+    color: purple;
+}
+a:active {
+    color: blue;
+}
+
+.imgcircle {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    border:3px solid #0099ff;;
+    
+}
+
+.boxed {
+    border:5px solid #0099ff;
+    width: 100%;
+    height: auto;
+   }
+
+
+p {
+  font-family: 'Indie Flower', cursive;
+  font-size:20px;
+
+}
+
+ul {
+  list-style:none;
+  padding:0;
+  
+}
+
+li {
+      border:10px solid #0066cc ;
+      padding:10px;
+      margin:10px;
+      box-shadow: 3px 3px 3px #0099ff
+       }
+
+.videos {
+    float: left;
+    color:rgb(51, 204, 255);
+    width: 32.33%;
+    border: 10px solid #0099ff;
+    padding: 25px;
+    margin: .5%;
+    box-shadow: 3px 3px 3px #0099ff
+   }
+
+.blog {
+  float: left;
+    color:rgb(51, 204, 255);
+    width: 32.33%;
+    border: 10px solid #0099ff;
+    padding: 25px;
+    margin: .5%;
+    box-shadow: 3px 3px 3px #0099ff
+   }
+
+.main {
+  float: left;
+   color:rgb(51, 204, 255);
+    width: 32.33%;
+    border: 10px solid #0099ff;
+    padding: 25px;
+    margin: .5%;
+    box-shadow: 3px 3px 3px #0099ff
+   }
+ #contact {
+  text-align: center;
+ }
+
+
+@media only screen and (max-width:975px) {
+  body {
+    font-size:20px;
+  }
+  .videos {
+    width:99%;
+    max-width:700px;
+    float:none;
+    margin:2em auto;
+  }
+  .blog {
+    width:99%;
+    max-width:700px;
+    float:none;
+    margin:2em auto;
+  }
+
+  .main {
+    width:99%;
+    max-width:700px;
+    float:none;
+    margin:2em auto;
+  }
+}
